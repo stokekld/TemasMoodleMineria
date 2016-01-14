@@ -126,7 +126,7 @@ if (!$currentcontext = get_context_instance(CONTEXT_COURSE, $COURSE->id)) {
   <?php
  
   // no estoy seguro
-  print_container_end(); // content container
+  $OUTPUT->container_end(); // content container
     
     
     echo '<div id="footer">';
