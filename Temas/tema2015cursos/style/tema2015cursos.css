@@ -1,0 +1,738 @@
+/**
+  *  this is what makes the aardvark-lite unique
+  *
+  */
+
+
+/***
+ ***	core: body
+ ***/
+
+body {
+	color:#222222; /***/
+	font-family: arial, helvetica, sans-serif;
+/*	font-family:Verdana, Arial, Helvetica, sans-serif;*/
+	font-size : 14px;
+	
+	/*background-image: [[pix:theme|url(images/fondoo]]);*/
+	background-color: #FFFFFF; /*F0F8FF*/
+	/*background-image: url([[pix:theme|images/fondover1]]);*/
+	/*background-repeat: repeat-x;*/
+	/*background-position: center top;*/
+}
+
+a:link,
+a:visited {
+    color:#222222;  /*3D2E0E D67507*/
+	text-decoration: none;
+}
+
+a:hover {
+    color: #444444; /*960*/
+	text-decoration: none;
+	
+}
+
+a.dimmed:link,
+a.dimmed:visited {
+	color:#444444;
+	text-decoration: none;
+
+}
+
+#page {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px; /*960*/
+	background-color: #FFFFFF; /*color 314342  ----->*/
+	min-height: 100px; /*590 400*/
+	/*background-image: url([[pix:theme|images/fondo_centro]]);*/
+	background-repeat: no-repeat; /*no-repeat;*//* repeat-x;*/
+	background-position: center top;
+	position: inherit;
+/*	background: url([[pix:theme|images/fondo_centro]]) no-repeat top; */
+	/*background: url([[pix:theme|images/fondo_centro]]) repeat-x top;*/
+/*	filter:alpha(opacity=75);
+	opacity: .75;
+	-moz-opacity:0.75;*/
+}
+
+
+.fondo{
+/*	background: url([[pix:theme|images/core/curso_energia_fondo]]);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-color: #FFF; */
+
+	background-color: #ffffff;
+	width:960px;
+	height: 0px; /* 227 378*/
+	bottom: 0px;
+	z-index: -2000; 
+/*	z-index: inherit; */
+}
+.inicio_curso {
+	width: 960px; /**/
+	/*height:500px;*/
+	margin-right: 0px;
+	margin-left: 0px; /*200*/
+	margin-top:-33px;
+	overflow: none;
+	/*background-color:#000;*/
+}
+
+.tex_inicio_curso{
+	background-image: url([[pix:theme|images/img_texto]]) no-repeat;
+/*	width: 693px;
+	height: 425px;  */
+}
+
+#menu_usuario {
+	/*background-image: url([[pix:theme|images/pleca_menu]]) no-repeat top;*/
+	width: 160px; /*160*/
+	height: auto;
+/*	height: 50%; */
+/*	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #2E230D; */
+/*	background: url([[pix:theme|images/celda_menu]]); */
+    /*background-color:#FFFFFF;*/
+
+	filter:alpha(opacity=75);
+	opacity: .75; 
+	
+	float:left; /*left*/
+	margin-top: 0px;
+	margin-left: 25px; /*30*/
+/*	position:fixed; */
+}
+
+#pagelayout {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#layout-table {
+	margin-top:0;
+	padding-top:10px;
+}
+
+#layout-table #middle-column{
+  vertical-align:top;
+  padding-left:7px;
+  padding-right:5px;
+}
+
+#layout-table #left-column{
+  vertical-align:top;
+  padding-left:4px;
+  padding-right:0px;
+}
+
+#layout-table #right-column{
+  vertical-align:top;
+  padding-left:0px;
+  padding-right:6px;
+}
+
+
+#content {
+	width: 960px;   /*750*/
+	margin-left: 0px;   /*200*/
+	margin-top: 0px; /*-49*/
+	min-height: 200px;
+	/*background-color: #330000;*/ /*Color fondo moodle*/
+	/*background-image: url([[pix:theme|images/fondo_centro]]);
+	background-repeat: repeat-y;*/ /*no-repeat;*//* repeat-x;*/
+	/*background-position: center top;*/
+	/*filter:alpha(opacity=75);
+	opacity: .75;
+	-moz-opacity:0.75;*/
+	position: static;
+	overflow: auto;
+}
+
+hr {
+	border-bottom:1px dotted gray;
+	border-top:0px;
+}
+
+h1.main,
+h2.main,
+h3.main,
+h4.main,
+h5.main,
+h6.main {
+	text-align: center;
+	margin:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+th.header,
+td.header,
+h1.header,
+h2.header,
+h3.header,
+div.header {     
+    background: #ffffff url([[pix:theme|images/core/h2grad]]) top repeat-x; 
+	border-top: gray 1px dotted;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	color: #505050;
+}
+
+.generalbox {
+    background: transparent; 
+	border: 0px;
+}
+
+/***
+ ***	core: header
+ ***/
+
+#header {
+	height: 100px;
+}
+
+#logo {
+	background: url([[pix:theme|images/header/header]]) no-repeat left top;
+	width: 960px;
+	height: 100px;
+} 
+
+/***
+ ***	core: footer
+ ***/
+
+#footer {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	background-image: url([[pix:theme|images/footer/footer]]);
+	background-repeat: repeat-x ;/*no-repeat;*/
+	background-position: top ;/*center;*/
+	height: 50px; /*50 277 428*/
+	bottom: 0px; /*fondo espacio*/
+	margin-top:-3px;
+	position: inherit;
+	background-color: #FFFFFF; 
+	color: #FFFFFF; /************************************/
+}
+
+#footer .footerlogos { 
+	margin-top: 5px;
+	border-top: 1px dotted gray;
+}
+
+#footer .footerlogos ul li { 
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline; 
+	margin:2px;
+}
+
+#footer p.copyright { 
+	padding: 0; 
+	margin: 0; 
+	line-height: 2em; 
+	font-size: 0.8em; 
+}
+
+#footer a:link, #footer a:visited {
+	color: #AAAAAA; /******************************************/
+	text-decoration: none;
+}
+
+#footer a:hover, #footer a:active {
+	color: #EEEEEE; /******************************************/
+	text-decoration: none;
+}
+
+/***
+ ***	core: profileblock
+ ***/
+
+#profileblock {
+        margin: 0;
+        padding: 0;
+	float: right;
+	text-align: right;
+	width: 95%;
+	height: 100px;
+}
+
+#profilepic {
+	text-align:right;
+	float: right;
+	margin: 5px;
+	padding: 0;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ffffff;
+}
+
+#profilename {
+	text-align:right;
+	width: 500px;
+	height: 30px;
+	margin: 5px;
+	padding: 0;
+	float: right;
+	font-size: 2em;
+}
+
+#profilename a:link, #profilename a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#profilename a:hover, #profilename a:active {
+	color: #DCDCDC;
+	text-decoration: none;
+}
+
+#profileoptions a:link, #profileoptions a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#profileoptions a:hover, #profileoptions a:active {
+	color: #DCDCDC;
+	text-decoration: none;
+}
+
+#profileoptions {	
+	width: 600px;
+	height: 30px;
+	margin: 5px;
+	padding: 0;
+	float: right;
+}
+
+#profileoptions ul {
+	float: right;
+	text-align: right;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	list-style-type: none; 
+}
+
+#profileoptions li
+{
+	display: inline;
+	margin-left: 1em;
+	text-transform: capitalize;
+	font-weight: bold;
+} 
+
+
+#profileoptions #submit { 
+	background-color: transparent; 
+	background-image:url([[pix:theme|images/header/login]]);
+	background-repeat: no-repeat; 
+	background-attachment: scroll; 
+	background-position: left top;
+	border-width: 0;
+	width: 62px;
+	height: 25px;
+	font-size: 1em;
+	padding-bottom: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+
+#profileoptions .loginform {
+	padding-right: 10px; 
+	margin: 0;
+}
+
+#profileoptions .loginform input {
+	width: 5em;
+}
+
+#profileoptions .loginform label {
+	color: #3D2E0E;
+}
+
+
+/***
+ ***	core: aardvark menu
+ ***/
+ 
+#aardvark_liteheaded_menu {
+	/*background-color:#093;*/ /*Color fondo home header*/ /*2f2f2f*/
+    /*background:url([[pix:theme|images/header/pleca1_menu]]) repeat-x top center;*/
+	/*width:960px;*/
+	background-color:#cccccc;
+	height:30px;
+	clear: both;
+    margin: 0;
+    padding: 0;
+	
+}	
+#aardvark_liteheaded_menu ul {
+ /*  width: 500px;*/ /*For KHTML*/
+list-style: none;
+padding: 0;
+margin: 0;
+list-style: none;
+float: left;
+
+
+}
+
+#aardvark_liteheaded_menu ul li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height:30px;
+  
+}
+#aardvark_liteheaded_menu ul li{
+	padding-bottom:0px;
+	
+}
+#aardvark_liteheaded_menu ul li:hover{
+	background:#cccccc;
+	
+}
+
+
+#aardvark_liteheaded_menu ul ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width:250px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top:30px;
+  left:0px;
+  background:#999999;
+  border-radius:0px;
+  
+ 
+ 
+  
+  /*opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter:alpha(opacity=80);*/
+}
+
+
+#aardvark_liteheaded_menu ul ul:after /*From IE 7 lack of compliance*/
+{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height:0px;
+  visibility: hidden;
+}
+
+#aardvark_liteheaded_menu ul ul li {
+  width:250px;
+  height:30px;
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/
+}
+
+#aardvark_liteheaded_menu ul li ul li:hover{ background:#999999; border-radius:0px; }
+#aardvark_liteheaded_menu ul li ul li a.fly{ background:url([[pix:theme|arrow]]) 240px 6px no-repeat; }
+#aardvark_liteheaded_menu ul li ul li a.fly:hover{ background:url([[pix:theme|arrow_over]]) 240px 6px no-repeat; }
+
+/* Root Menu */
+#aardvark_liteheaded_menu ul a {
+	
+  padding: 5px 15px 5px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  color:#666666;
+  text-decoration: none;
+  /*font-weight: bold;*/
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+  /*font-weight:bold;*/
+/*  border-right:1px solid #818181;*/
+  text-decoration: none;
+  height: auto !important;
+  height:20px; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+#aardvark_liteheaded_menu ul a:hover,
+#aardvark_liteheaded_menu ul li:hover a,
+#aardvark_liteheaded_menu ul li.iehover a {
+color:#666;
+
+
+}
+
+/* 2nd Menu */
+#aardvark_liteheaded_menu ul li:hover li a,
+#aardvark_liteheaded_menu ul li.iehover li a {
+  float: none;
+  border:none;
+  color:#666;
+  
+}
+
+/* 2nd Menu Hover Persistence */
+#aardvark_liteheaded_menu ul li:hover li a:hover,
+#aardvark_liteheaded_menu ul li:hover li:hover a,
+#aardvark_liteheaded_menu ul li.iehover li a:hover,
+#aardvark_liteheaded_menu ul li.iehover li.iehover a {
+/*background:#000;*/
+color: #fff;
+
+}
+
+/* 3rd Menu */
+#aardvark_liteheaded_menu ul li:hover li:hover li a,
+#aardvark_liteheaded_menu ul li.iehover li.iehover li a {
+ /* background:#00F;*/
+  color: #fff;
+}
+
+/* 3rd Menu Hover Persistence */
+
+#aardvark_liteheaded_menu ul li:hover li:hover li a:hover,
+#aardvark_liteheaded_menu ul li:hover li:hover li:hover a,
+#aardvark_liteheaded_menu ul li.iehover li.iehover li a:hover,
+#aardvark_liteheaded_menu ul li.iehover li.iehover li.iehover a {
+/*background:#00F;*/
+  color: #FFF;
+}
+
+/* 4th Menu */
+#aardvark_liteheaded_menu ul li:hover li:hover li:hover li a,
+#aardvark_liteheaded_menu ul li.iehover li.iehover li.iehover li a {
+background:#ddd;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+#aardvark_liteheaded_menu ul li:hover li:hover li:hover li a:hover,
+#aardvark_liteheaded_menu ul li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+#aardvark_liteheaded_menu ul ul ul,
+#aardvark_liteheaded_menu ul ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left:250px;
+ /* background:#999;*/
+}
+#aardvark_liteheaded_menu ul li ul li ul li:hover{ background:#666666; border-radius:0px;}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+#aardvark_liteheaded_menu ul li:hover ul ul,
+#aardvark_liteheaded_menu ul li:hover ul ul ul,
+#aardvark_liteheaded_menu ul li.iehover ul ul,
+#aardvark_liteheaded_menu ul li.iehover ul ul ul {
+  display: none;
+  background:#c2c2c2;/*rojo*/
+  
+}
+
+#aardvark_liteheaded_menu ul li:hover ul,
+#aardvark_liteheaded_menu ul ul li:hover ul,
+#aardvark_liteheaded_menu ul ul ul li:hover ul,
+#aardvark_liteheaded_menu ul li.iehover ul,
+#aardvark_liteheaded_menu ul ul li.iehover ul,
+#aardvark_liteheaded_menu ul ul ul li.iehover ul {
+  display: block;
+  
+}
+#aardvark_liteheaded_menu ul .selected{
+	color:#3FC;
+}
+.color{ border-radius:10px;}
+
+
+/***
+ ***	core: navbar
+ ***/
+
+.navbar {       
+	border-top:0px;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+}
+
+/***
+ ***	core: side block
+ ***/
+
+.sideblock {
+	color:#555555;
+	border: gray 1px dotted !important;
+  	background: #ffffff url([[pix:theme|images/sideblocks/sidegrad]]) repeat-x !important;
+}
+
+.sideblock .content {
+	color:#555555;
+	padding: 4px;
+	border: 0px;
+}
+
+.sideblock .header {
+  	background: transparent !important;
+}
+
+.sideblock .header h2 {
+	padding-top: 4px;
+  	background: transparent !important;
+
+ }
+
+.sideblock .header .hide-show-image {
+	padding-top: 4px;
+}
+ 
+.sideblock .footer {
+	border:0px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size:0.85em;
+	text-align: left;
+}
+
+.sideblock .header, .sideblock .header h2 {
+	color: #505050;
+	font-size:1em;
+	border: 0px;
+  	background: transparent !important;
+}
+
+
+
+.sideblock .content .post .head .date,
+.sideblock .content .post .head .name {
+	color: #555555;
+}
+
+/***
+ ***	core: course (the middle bit)
+ ***/
+
+.coursebox {
+	background: #ffffff;
+	border: 0px;    
+	margin-bottom: 0px;
+	margin-right: 2px;
+}
+
+body#site-index .headingblock,
+body#course-view .headingblock {
+	margin-bottom: 0px;
+}
+
+.section {
+	background: #ffffff;
+}
+
+#course-view .section td.content {
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:1px dashed #dbdbdb;
+}
+
+#course-view .section td.side {
+  border-width:0px;
+}
+
+/***
+ ***	modules: forum
+ ***/
+
+.forumpost {
+	border: 0px;    
+	width: auto;
+	overflow: hidden;
+}
+
+.forumpost .left {
+	background:#ffffff url([[pix:theme|images/forum/leftpost]]) no-repeat top left;
+}
+
+.forumpost .picture,
+.forumpost .topic {
+	background:#c0deed url([[pix:theme|images/forum/forumheader]]);
+	border:0px;
+}
+
+.forumpost .topic a:link,
+.forumpost .topic a:visited {
+}
+
+.forumpost img {
+  max-width: 100%;
+}
+
+/***
+ ***	modules: calendar
+ ***/
+
+/* colors for calendar events */
+#calendar .event_global,
+.minicalendar .event_global,
+.block_calendar_month .event_global {
+	border-color:#def2ba !important;
+	background-color:#def2ba;
+}
+
+#calendar .event_course,
+.minicalendar .event_course,
+.block_calendar_month .event_course {
+  	border-color:#c6dfeb !important;
+  	background-color:#c6dfeb;
+}
+
+#calendar .event_group,
+.minicalendar .event_group,
+.block_calendar_month .event_group {
+ 	border-color:#feffc2 !important;
+ 	background-color:#feffc2;
+}
+
+#calendar .event_user,
+.minicalendar .event_user,
+.block_calendar_month .event_user {
+  	border-color:#d9c6e2 !important;
+  	background-color:#d9c6e2;
+}
+
+table.minicalendar tr td.weekend {
+  	color: red;
+  }
+  
+.menu_elemento {
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+/*custom*/
+#region-pre .region-content select, #region-post .region-content select{
+	width: 100%;
+}
+.section .img-text{
+	width: 100%;
+}
