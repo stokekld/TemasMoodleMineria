@@ -1,6 +1,6 @@
 <?php
 echo '<ul>';
-echo '<li class="color"><a href="'.$CFG->wwwroot.'/"><img width="18" height="17" src="'.$CFG->httpswwwroot.'/theme/'.current_theme().'/pix/images/menu/home_icon.png" alt="Home" /></a>
+echo '<li class="color"><a href="'.$CFG->wwwroot.'/"><img width="18" height="17" src="'.$CFG->httpswwwroot.'/theme/'.$PAGE->theme->name.'/pix/images/menu/home_icon.png" alt="Home" /></a>
 	</li>';
 ?>
 
