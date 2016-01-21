@@ -47,6 +47,7 @@ echo $OUTPUT->doctype() ?>
 
 <!-- Inicia body -->
 <body id="<?php echo $PAGE->bodyid; ?>" class="<?php echo $PAGE->bodyclasses; ?>">
+  <?php echo $OUTPUT->standard_top_of_body_html(); ?>
 <?php
 if (!$currentcontext = get_context_instance(CONTEXT_COURSE, $COURSE->id)) {
             $this->content = '';
