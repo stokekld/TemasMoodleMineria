@@ -7,7 +7,7 @@
             <div id="region-main-wrap" style="right:90%;width:70%;">  <!-- right: 90%, width: 70%  -->
             <?php } ?>
                 <div id="region-main">
-                    <div class="region-content">
+                    <div class="region-content" style="padding:0">
                         <?php echo core_renderer::MAIN_CONTENT_TOKEN ?>
                     </div>
                 </div>
